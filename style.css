@@ -1,0 +1,162 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+
+h4{
+    position:absolute;
+    top: 16.56rem;
+    left: 1.187rem;
+}
+
+p{
+    position:absolute;
+    top: 18.94rem;
+    left: 0.94rem; 
+    font-size: 14px;
+    text-align: left;
+    color:hsl(216, 25%, 54%);
+}
+
+span{
+    color:white;
+}
+
+a{
+    color:hsl(216, 25%, 54%);
+    text-decoration: none;
+    
+}
+
+.eye-icon{
+  position:absolute;
+  left: 102px;
+  top:100px;
+  display: none;
+
+}
+
+.outer-container{
+    margin: 0 auto;
+    position: absolute;
+    top: 108px;
+    left: 543px;
+    height:478px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.inner-container{
+    border-radius: 5px 5px 5px 5px;
+    background-image: url(./images/image-equilibrium.jpg); 
+    background-size: 245px 242px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    left: 19px;
+    height:50%;
+    width: 87.5%;
+    
+    
+}
+
+.etherium{
+    position:absolute;
+    top: 358px;
+    left: 16px;
+    display: inline-block;
+    color: hsl(181, 80%, 56%);
+}
+
+.subtext{
+    padding: 1px 5px;
+
+}
+
+.time{
+    position:absolute;
+    left: 170px;
+    top: 358px;
+    display: inline-block;
+    
+}
+
+.icons{
+    float: left;
+    margin-right:5px ;
+}
+
+hr{
+    width: 232px;
+    position:absolute;
+    top: 400px;
+    left:24px;
+    height: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+.creator-name{
+    position: absolute;
+    top: 414px;
+    left: 50px;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.outer-container img{
+    position: absolute;
+    top: 426px;
+    left:24px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 100%;
+    float: left;
+    
+} 
+
+
+
+.attribution{
+    position: absolute;
+    bottom: 12px;
+    left: 541px;
+    font-size: 13px;
+    
+}
+
+.coded-by{
+    margin-left: 3px;
+}
+
+
+/* hover states */
+
+/* .inner-container:hover {
+    background-color: hsl(181, 80%, 56%);
+  } */
+
+
+.inner-container:hover  .eye-icon{ 
+    display: block;
+   
+}
+
+span.name:hover, h4:hover{
+    color: hsl(181, 80%, 56%);
+}
+
